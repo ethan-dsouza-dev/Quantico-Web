@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team - UBC Quantico</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/team.css">
+</head>
+<body>
+    <!-- JavaScript to load the navbar -->
+    <script src="/js/loadNavbar.js"></script>
+    <script src="/js/team.js"></script>
+    
+    <div class="navbarHide"></div>
+
+    <!-- Navigation bar -->
+    <div id="navbar-container"></div>
+
+    <section class="team-page">
+        <!-- Filter Buttons -->
+        <div class="filter-buttons">
+            <button class="filter-btn active" onclick="filterTeam('all')">All</button>
+            <button class="filter-btn" onclick="filterTeam('group-heads')">Group Heads</button>
+            <button class="filter-btn" onclick="filterTeam('management')">Management</button>
+            <button class="filter-btn" onclick="filterTeam('senior-analysts')">Senior Analysts</button>
+            <button class="filter-btn" onclick="filterTeam('junior-analysts')">Junior Analysts</button>
+            <button class="filter-btn" onclick="filterTeam('pity-hire')">Pity Hire</button>
+        </div>
+
+        <!-- Team Members Grid -->
+        <div class="team-grid" id="teamGrid">
+        </div>
+    </section>
+
+    <div id="profileModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img id="profileImage" src="" alt="">
+            <h1 id="profileName"></h1>
+            <h2 id="profileRole"></h2>
+            <p id="profileBio"></p>
+            <p id="profileBioExtra"></p>
+        </div>
+    </div>
+
+</body>
+</html>

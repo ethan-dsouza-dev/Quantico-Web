@@ -1,0 +1,6 @@
+RewriteEngine On
+
+# Redirect root-level paths (e.g., /about) to the /pages/ folder
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(about|team|research|events|hiring|placements|contact)/?$ /pages/$1/ [L]
