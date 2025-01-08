@@ -4,66 +4,57 @@ document.addEventListener("DOMContentLoaded", () => {
     const teamProfiles = {
         "justin-cho": {
             name: "Justin Cho",
-            role: "President and Founder of Quantico",
+            role: "President of Quantico | Lead Quant Researcher",
             image: "/images/team/Justin Cho.jpeg",
-            academics: "Bachelor of Math | Year 2",
+            academics: "Bachelor of Science | Major in Mathematics Minor in Economics | Year 3",
             bio_main: "N/A",
             bio_extra: "N/A",
-            classes: ["group-heads"]
+            classes: ["founder", "quant-research"]
         },
         "jinho-park": {
             name: "Jinho Park",
-            role: "Supreme leader and Web Developer",
+            role: "Vice President of Quantico | Quant Developer",
             image: "/images/team/Jinho Park.jpeg",
-            academics: "Bachelor of Computer Science | Year 3",
+            academics: "Bachelor of Science | Major in Computer Science | Year 3",
             bio_main: "N/A",
             bio_extra: "N/A",
-            classes: ["group-heads", "senior-analysts"]
+            classes: ["founder", "quant-dev"]
         },
-        "p1": {
-            name: "Person 1",
-            role: "He gets me Coffee",
+        "aaryan-rampal": {
+            name: "Aaryan Rampal",
+            role: "Lead Quant Developer",
             image: "/images/team/Aaryan Rampal.jpeg",
-            academics: "Douglas College | Super Senior",
+            academics: "Bachelor of Science | Major in Computer Science (Honours) | Year 3",
             bio_main: "N/A",
             bio_extra: "N/A",
-            classes: ["pity-hire"]
+            classes: ["quant-dev"]
         },
-        "p2": {
-            name: "Person 2",
-            role: "He gets me Coffee",
-            image: "/images/team/Aaryan Rampal.jpeg",
-            academics: "Douglas College | Super Senior",
-            bio_main: "N/A",
-            bio_extra: "N/A",
-            classes: ["pity-hire"]
-        },
-        "p3": {
-            name: "Person 3",
-            role: "Manages my brawl stars account",
-            image: "/images/team/Aaryan Rampal.jpeg",
-            academics: "Douglas College | Super Senior",
+        "gregory-liu": {
+            name: "Gregory Liu",
+            role: "Quant Developer",
+            image: "/images/team/Gregory Liu.jpeg",
+            academics: "Bachelor of Commerce | Major in Business and Computer Science | Year 3",
             bio_main: "Amazing coffee getter",
             bio_extra: "Template",
-            classes: ["management"]
+            classes: ["quant-dev"]
         },
-        "ethan": {
+        "ethan-dsouza": {
             name: "Ethan Dsouza",
-            role: "Junior Analysts",
+            role: "Lead Web Dev",
             image: "/images/team/Ethan.jpeg",
-            academics: "Bachelor of Data Analytics | Year 3",
+            academics: "Bachelor of Science | Major in Statistics | Year 3",
             bio_main: "From Africa",
             bio_extra: "he likes to hike",
-            classes: ["junior-analysts"]
+            classes: ["web-dev"]
         },
-        "shaleen": {
-            name: "Shalin Bhanot",
-            role: "Junior Analysts",
+        "shaleen-gorakatar": {
+            name: "Shaleen Gorakatar",
+            role: "Lead Analyst",
             image: "/images/team/shaleen.jpeg",
-            academics: "Bachelor of Data Analytics | Year 3",
+            academics: "Bachelor of Science | Major in Statistics | Year 3",
             bio_main: "From India",
             bio_extra: "Template",
-            classes: ["junior-analysts"]
+            classes: ["analyst"]
         }
     };
 

@@ -1,0 +1,50 @@
+:root {
+    --navbarPad: 20px;
+    --navbarFontSize: 15px;
+    --navbarHeight: calc((2 * var(--navbarPad)) + var(--navbarFontSize));
+}
+
+/* Fixed navigation bar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #1a2a42;
+    color: white;
+    padding: var(--navbarPad) 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    left: 0px;
+    right: 0px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar links */
+.navbar ul {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: var(--navbarFontSize);
+    font: sans-serif;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+.navbarHide {
+    margin-top: var(--navbarHeight);
+}
