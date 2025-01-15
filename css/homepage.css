@@ -59,6 +59,8 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    border: #002145;
+    border-width: 1px;
 }
 
 .image-wrapper {
