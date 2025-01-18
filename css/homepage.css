@@ -68,11 +68,20 @@ body {
     margin-right: 41px;
     position: relative;
     height: 100%;
+    border-radius: 50%; /* Make the wrapper a circle */
+    overflow: hidden; 
 }
 .image-wrapper img {
     width: 100%;
     height: auto;
 }
+
+.image-wrapper.logo {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; 
+}
+
 .how-we-came-about {
     flex-direction: row-reverse;
 }

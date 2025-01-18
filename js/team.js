@@ -4,58 +4,67 @@ document.addEventListener("DOMContentLoaded", () => {
     const teamProfiles = {
         "justin-cho": {
             name: "Justin Cho",
-            role: "President of Quantico | Lead Quant Researcher",
+            role: "President | Lead Quant Researcher",
             image: "/images/team/Justin Cho.jpeg",
             academics: "Bachelor of Science | Major in Mathematics Minor in Economics | Year 3",
-            bio_main: "N/A",
-            bio_extra: "N/A",
+            bio_main: "",
+            bio_extra: "",
             classes: ["founder", "quant-research"]
         },
-        "jinho-park": {
-            name: "Jinho Park",
-            role: "Vice President of Quantico | Quant Developer",
-            image: "/images/team/Jinho Park.jpeg",
-            academics: "Bachelor of Science | Major in Computer Science | Year 3",
-            bio_main: "N/A",
-            bio_extra: "N/A",
-            classes: ["founder", "quant-dev"]
+        "dhruv-singh": {
+            name: "Dhruv Singh",
+            role: "Vice President",
+            image: "/images/team/dhruv.jpeg",
+            academics: "Bachelor of Commerce | Major in Business and Computer Science | Year 3",
+            bio_main: "",
+            bio_extra: "",
+            classes: ["analyst"]
         },
         "aaryan-rampal": {
             name: "Aaryan Rampal",
             role: "Lead Quant Developer",
             image: "/images/team/Aaryan Rampal.jpeg",
             academics: "Bachelor of Science | Major in Computer Science (Honours) | Year 3",
-            bio_main: "N/A",
-            bio_extra: "N/A",
+            bio_main: "",
+            bio_extra: "",
             classes: ["quant-dev"]
+        },
+        "ethan-dsouza": {
+            name: "Ethan Dsouza",
+            role: "Lead Web Dev | Quant Developer",
+            image: "/images/team/Ethan.jpeg",
+            academics: "Bachelor of Science | Major in Statistics | Year 3",
+            bio_main: "",
+            bio_extra: "",
+            classes: ["web-dev", "quant-dev"]
         },
         "gregory-liu": {
             name: "Gregory Liu",
             role: "Quant Developer",
             image: "/images/team/Gregory Liu.jpeg",
             academics: "Bachelor of Commerce | Major in Business and Computer Science | Year 3",
-            bio_main: "Amazing coffee getter",
-            bio_extra: "Template",
+            bio_main: "",
+            bio_extra: "",
             classes: ["quant-dev"]
-        },
-        "ethan-dsouza": {
-            name: "Ethan Dsouza",
-            role: "Lead Web Dev",
-            image: "/images/team/Ethan.jpeg",
-            academics: "Bachelor of Science | Major in Statistics | Year 3",
-            bio_main: "From Africa",
-            bio_extra: "he likes to hike",
-            classes: ["web-dev"]
         },
         "shaleen-gorakatar": {
             name: "Shaleen Gorakatar",
             role: "Lead Analyst",
             image: "/images/team/shaleen.jpeg",
             academics: "Bachelor of Science | Major in Statistics | Year 3",
-            bio_main: "From India",
-            bio_extra: "Template",
+            bio_main: "",
+            bio_extra: "",
             classes: ["analyst"]
-        }
+        },
+        "jinho-park": {
+            name: "Jinho Park",
+            role: "Quant Developer",
+            image: "/images/team/Jinho Park.jpeg",
+            academics: "Bachelor of Science | Major in Computer Science | Year 3",
+            bio_main: "",
+            bio_extra: "",
+            classes: ["founder", "quant-dev"]
+        },
     };
 
     function renderTeamProfiles() {
