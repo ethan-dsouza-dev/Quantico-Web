@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", () => {
             academics: "Bachelor of Science | Major in Computer Science | Year 3",
             bio_main: "",
             bio_extra: "",
-            classes: ["founder", "quant-dev"]
+            classes: ["quant-dev"]
         },
     };
 
