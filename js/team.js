@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
             academics: "Bachelor of Commerce | Major in Business and Computer Science | Year 3",
             bio_main: "",
             bio_extra: "",
-            classes: ["analyst"]
+            classes: ["founder", "analyst"]
         },
         "aaryan-rampal": {
             name: "Aaryan Rampal",
